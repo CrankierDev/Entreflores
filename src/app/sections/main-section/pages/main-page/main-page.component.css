@@ -1,0 +1,19 @@
+/* mat-card{
+    width: 70%;
+    float: right;
+    border: solid 1px blue;
+} */
+
+
+.lat-column {
+    width: 20%;
+    margin-left: 0;
+    margin-right: 0;
+    border: solid 1px red;
+}
+
+.container {
+    width: 40%;
+    margin-right: 0;
+    border: solid 1px blue;
+}

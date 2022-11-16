@@ -1,0 +1,65 @@
+.header {
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 98%;
+    border: solid 1px black;
+}
+
+.header>article>p, .header>a {
+    margin-top: 3em;
+}
+
+.header>a, .header>a:link {
+    position: relative;
+    float: left;
+    margin-left: 1em;
+    color: black;
+    margin-bottom: 0;
+}
+
+.header>article {
+    position: relative;
+    float: right;
+    width: 70%;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.header > article > p {
+    position: relative;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+
+.main-content {
+    margin-top: 10vh;
+    width: 98vw;
+    border: solid 1px green;
+}
+
+.lat-column {
+    display: inline-flex;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 90vh;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 1px;
+    border: solid 1px red;
+}
+
+.container {
+    display: inline-flex;
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 98em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 1px;
+    border: solid 1px blue;
+}
